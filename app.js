@@ -76,3 +76,5 @@ app.get('/', function (req, res) {
 app.listen(options.port, options.host, function() {
     console.log('Open MCT application running at %s:%s', options.host, options.port)
 });
+
+app.use(express['static'](options.directory));

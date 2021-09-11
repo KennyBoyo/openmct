@@ -195,6 +195,10 @@
             ['table', 'telemetry.plot.overlay', 'telemetry.plot.stacked'],
             {indicator: true}
         ));
+        openmct.install(openmct.plugins.AsteriaPlugin());
+        openmct.install(openmct.plugins.Gauge());
+        openmct.install(openmct.plugins.ButtonPlugin());
+        openmct.install(openmct.plugins.MapPlugin())
         openmct.start();
     </script>
 </html>

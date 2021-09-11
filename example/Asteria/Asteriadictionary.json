@@ -1,0 +1,246 @@
+{
+    "name": "Asteria",
+    "key": "pl",
+    "measurements": [
+        {
+            "name": "Altitude",
+            "key": "rocket.altitude",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "meters",
+                    "units": "meters",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GPS Latitude",
+            "key": "gps.latitude",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GPS Longitude",
+            "key": "gps.longitude",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration",
+            "key": "rocket.acceleration",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Speed",
+            "key": "rocket.speed",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Orientation",
+            "key": "rocket.orientation",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Magnetometer Reading",
+            "key": "rocket.magnetometer",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Packet Counter",
+            "key": "rocket.packets",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Fuel",
+            "key": "rocket.fuel",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Asteria State",
+            "key": "rocket.state",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "unit",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

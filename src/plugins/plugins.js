@@ -69,7 +69,13 @@ define([
     './CouchDBSearchFolder/plugin',
     './timeline/plugin',
     './hyperlink/plugin',
-    './DeviceClassifier/plugin'
+    './DeviceClassifier/plugin',
+    '../../example/simpleVuePlugin/plugin',
+    '../../example/Gauge_Bar/plugin',
+    '../../example/Button/plugin',
+    '../../example/STFEstyling/stfe',
+    '../../example/Map/plugin',
+    '../../example/Asteria/Asteria-plugin'
 ], function (
     _,
     UTCTimeSystem,
@@ -119,7 +125,13 @@ define([
     CouchDBSearchFolder,
     Timeline,
     Hyperlink,
-    DeviceClassifier
+    DeviceClassifier,
+    SimpleVuePlugin,
+    Gauge,
+    ButtonPlugin,
+    STFEstyling,
+    MapPlugin,
+    AsteriaPlugin
 ) {
     const bundleMap = {
         LocalStorage: 'platform/persistence/local',
@@ -224,6 +236,12 @@ define([
     plugins.Timeline = Timeline.default;
     plugins.Hyperlink = Hyperlink.default;
     plugins.DeviceClassifier = DeviceClassifier.default;
+    plugins.SimpleVuePlugin = SimpleVuePlugin;
+    plugins.Gauge = Gauge;
+    plugins.ButtonPlugin = ButtonPlugin;
+    plugins.STFEstyling = STFEstyling.default;
+    plugins.MapPlugin = MapPlugin;
+    plugins.AsteriaPlugin = AsteriaPlugin;
 
     return plugins;
 });
